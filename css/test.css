@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+}
+
+.red {
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  position: fixed;
+  top: 0;
+}
+.orange {
+  background-color: orange;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 100px;
+  top: 100px;
+
+}
+.yellow {
+  background-color: yellow;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 200px;
+  top: 200px;
+}

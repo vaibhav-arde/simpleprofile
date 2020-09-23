@@ -1,0 +1,147 @@
+body {
+  color: #40514e;
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+}
+
+.top-container {
+  background-color: #d4f3ef;
+  position: relative;
+  padding-top: 100px;
+  /* background-color: #f8efd4;
+    background-color: #edc988;
+    background-color: #de4463;
+    background-color: #821752; */
+}
+
+.subTitle {
+  font-weight: normal;
+  margin-top: 0;
+}
+h1 {
+  margin: 0 auto;
+  /* width: 130px; */
+  font-family: "Sacramento", cursive;
+  font-size: 4rem;
+  color: #821752;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  color: #821752;
+}
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #821752;
+}
+.middle-container {
+  background-color: #ffcbcb;
+  position: relative;
+  top: -4px;
+}
+.bottom-container {
+  background-color: #de4463;
+  padding: 0.5rem;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+.top-cloud {
+  position: absolute;
+  right: 25%;
+  top: 50px;
+}
+.bottom-cloud {
+  position: absolute;
+  left: 25%;
+  bottom: 300px;
+}
+.mountain-img {
+  margin-bottom: 0;
+}
+.pro {
+  text-decoration: underline;
+}
+
+.footer-link {
+  color: #ffcbcb;
+  font-size: 1rem;
+  margin-left: 16px;
+  margin-right: 16px;
+  text-decoration: none;
+  transition-duration: 0.4s;
+}
+.footer-link:hover{
+    font-size: 2rem;
+    /* color: #821752; */
+}
+.contact-link {
+  font-family: "Montserrat", sans-serif;
+  color: #821752;
+}
+.copyright {
+  color: #ffcbcb;
+  font-size: 0.7rem;
+  margin-top: 1rem;
+}
+.skill-row {
+  width: 50%;
+  margin: 50px auto;
+  text-align: left;
+  line-height: 2;
+  padding: 25px 0;
+}
+.computer-img {
+  border-radius: 100%;
+  width: 25%;
+  float: left;
+  margin-right: 20px;
+}
+.chillies-img {
+  width: 25%;
+  float: right;
+  margin-left: 20px;
+}
+.profile-img {
+  border-radius: 100%;
+  margin: 50px 0 50px;
+}
+.profile {
+  width: 50%;
+  margin: 0 auto 25px;
+  line-height: 2;
+}
+.contact-me {
+  width: 50%;
+  margin: 25px auto 62px;
+  padding: 0 0 60px;
+  line-height: 2;
+}
+hr {
+  border-style: dotted solid;
+  border-width: 10px 0 0 0;
+  border-color: grey;
+  width: 15%;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.btn {
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+  padding: 12px 28px;
+  border-radius: 8px;
+  background-color: #ffcbcb;
+  color: black;
+  border: 2px solid #821752;
+  transition-duration: 0.4s;
+}
+.btn:hover {
+  background-color: #821752; /* Green */
+  color: #ffcbcb;
+}
+.contact-para {
+  margin-bottom: 3rem;
+}
